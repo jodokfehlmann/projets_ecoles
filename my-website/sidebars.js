@@ -12,7 +12,7 @@ const sidebars = {
       type: 'category', label: '🌱 Projet 2 — Irrigation Intelligente',
       collapsible: true, collapsed: true,
       link: { type: 'doc', id: 'projet-irrigation/introduction' },
-      items: ['projet-irrigation/introduction','projet-irrigation/materiel','projet-irrigation/assemblage','projet-irrigation/cablage','projet-irrigation/code','projet-irrigation/installation','projet-irrigation/exercices'],
+      items: ['projet-irrigation/introduction','projet-irrigation/materiel','projet-irrigation/assemblage','projet-irrigation/cablage','projet-irrigation/code','projet-irrigation/exercices'],
     },
     {
       type: 'category', label: '🌡️ Projet 3 — Station Météo',
