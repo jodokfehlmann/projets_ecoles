@@ -1,0 +1,115 @@
+---
+id: introduction
+title: Traceur 2D — Introduction
+sidebar_label: 📖 Introduction
+---
+
+# ✏️ Projet 1 — Traceur 2D (Plotter CNC)
+
+<div className="info-grid">
+  <div className="info-box">
+    <span className="info-value">🔴</span>
+    <span className="info-label">Niveau Avancé</span>
+  </div>
+  <div className="info-box">
+    <span className="info-value">6–8h</span>
+    <span className="info-label">Durée estimée</span>
+  </div>
+  <div className="info-box">
+    <span className="info-value">15–18</span>
+    <span className="info-label">Âge recommandé</span>
+  </div>
+  <div className="info-box">
+    <span className="info-value">12.000</span>
+    <span className="info-label">DZD (prix kit)</span>
+  </div>
+</div>
+
+---
+
+## 🎯 Qu'est-ce qu'un traceur 2D ?
+
+Un **traceur 2D** (ou plotter CNC) est une machine qui déplace un stylo dans deux directions — gauche/droite (axe X) et avant/arrière (axe Y) — pour dessiner automatiquement des formes, du texte ou des images.
+
+C'est exactement comme la main d'un dessinateur, mais contrôlée par un ordinateur !
+
+:::info Lien avec la vraie industrie
+Les traceurs 2D sont utilisés dans l'industrie pour découper du vinyle, graver du métal, ou dessiner des plans architecturaux. Ce projet te donne les bases de la **CNC (Computer Numerical Control)**.
+:::
+
+---
+
+## 🏗️ Ce que tu vas construire
+
+```
+┌──────────────────────────────────┐
+│  ← Axe Y (moteur gauche/droite) →│
+│  ┌────────────────────────┐       │
+│  │   Chariot axe X        │ ↕ Y   │
+│  │   [stylo]              │       │
+│  └────────────────────────┘       │
+│         (moteur haut/bas)         │
+└──────────────────────────────────┘
+```
+
+**Composants principaux :**
+- 🖨️ Cadre imprimé en 3D (toutes les pièces mécaniques)
+- ⚙️ 2 moteurs pas-à-pas pour les axes X et Y
+- 🖊️ 1 servo-moteur pour lever/poser le stylo
+- 🧠 Arduino + 2 drivers de moteurs pas-à-pas
+
+---
+
+## 🎓 Ce que tu vas apprendre
+
+À la fin de ce projet, tu sauras :
+
+| Compétence | Description |
+|-----------|-------------|
+| **Mécanique** | Assembler un système avec courroies et rails |
+| **Électronique** | Câbler des drivers de moteurs pas-à-pas |
+| **Programmation** | Contrôler des moteurs avec Arduino |
+| **Mathématiques** | Systèmes de coordonnées X/Y |
+| **Débogage** | Identifier et corriger des erreurs |
+
+---
+
+## 📋 Vue d'ensemble des étapes
+
+```mermaid
+graph LR
+    A[📦 Matériel] --> B[🔧 Assemblage]
+    B --> C[🔌 Câblage]
+    C --> D[💻 Code]
+    D --> E[🎯 Calibration]
+    E --> F[🚀 Projets avancés]
+```
+
+1. **[Matériel](./materiel)** — Liste complète des composants avec photos
+2. **[Assemblage mécanique](./assemblage-mecanique)** — Montage du cadre étape par étape
+3. **[Câblage](./cablage)** — Connexions électroniques
+4. **[Code](./code)** — Programme Arduino commenté
+5. **[Calibration](./calibration)** — Régler la machine pour des dessins précis
+6. **[Projets avancés](./projets-avances)** — Aller plus loin
+7. **[Exercices](./exercices)** — Défis par niveau
+
+---
+
+## ✅ Prérequis
+
+Avant de commencer, vérifie que tu as :
+
+- [ ] Reçu ton kit complet Arduino EduKit Plotter
+- [ ] Installé **Arduino IDE 2.x** sur ton ordinateur
+- [ ] Téléchargé les bibliothèques nécessaires (voir page Code)
+- [ ] Environ **6 à 8 heures** de temps devant toi
+
+:::tip Premier conseil
+Lis **toute la documentation** avant de commencer l'assemblage. Tu éviteras des erreurs qui obligeraient à tout démonter !
+:::
+
+---
+
+## 🚀 Prêt ? C'est parti !
+
+👉 Commence par **[la liste du matériel →](./materiel)**
