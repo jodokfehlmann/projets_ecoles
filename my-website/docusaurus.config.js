@@ -8,8 +8,8 @@ const config = {
   favicon: 'img/favicon.ico',
   url: 'https://jodokfehlmann.github.io',
   baseUrl: '/projets_ecoles/',
-  organizationName: 'arduino-edu-algerie',
-  projectName: 'arduino-edukit',
+  organizationName: 'jodokfehlmann',
+  projectName: 'projets_ecoles',
   trailingSlash: false,
   onBrokenLinks: 'warn',
   markdown: {
