@@ -104,7 +104,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Arduino EduKit Algérie. Fait avec ❤️ pour les élèves algériens.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Arduino EduKit Algérie. Fait avec passion pour les élèves algériens.`,
       },
       prism: {
         theme: themes.github,

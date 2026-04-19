@@ -122,4 +122,4 @@ Ce projet est sous licence **MIT** — libre de l'utiliser, modifier et partager
 
 ---
 
-*Fait avec ❤️ pour les élèves algériens 🇩🇿*
+*Fait avec passion pour les élèves algériens 🇩🇿*
