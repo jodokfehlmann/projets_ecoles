@@ -22,6 +22,10 @@ Lis **toutes les étapes** une fois avant de commencer. Prépare tous tes outils
 2. Insère le moteur NEMA 17 dans l'emplacement prévu
 3. Fixe avec **4 vis M3 × 10mm** — ne serre pas trop fort pour l'instant
 
+Fixe le moteur NEMA 17 comme sur la photo :
+
+![Montage moteur NEMA 17](/img/projets/plotter/schema-cablage.png)
+
 ```
 Vue de dessus :
 ┌─────────────┐
