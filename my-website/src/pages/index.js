@@ -32,8 +32,9 @@ const projects = [
     level: 'Débutant',
     levelClass: 'badge-debutant',
     duration: '3–4 heures',
-    link: '/docs/projet-meteo/introduction',
+    link: '#',
     color: '#0D6E6E',
+    comingSoon: true,
   },
   {
     emoji: '🤖',
