@@ -34,7 +34,6 @@ const projects = [
     duration: '3–4 heures',
     link: '/docs/projet-meteo/introduction',
     color: '#0D6E6E',
-    comingSoon: false,
   },
   {
     emoji: '🤖',
