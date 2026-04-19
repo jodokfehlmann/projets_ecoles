@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkarduino_edukit_algerie=self.webpackChunkarduino_edukit_algerie||[]).push([[9647],{7121:(e,r,u)=>{u.r(r),u.d(r,{default:()=>c});u(6540);var a=u(4164),s=u(5500),i=u(7559),d=u(2831),n=u(1656),t=u(4848);function c(e){return(0,t.jsx)(s.e3,{className:(0,a.A)(i.G.wrapper.docsPages),children:(0,t.jsx)(n.A,{children:(0,d.v)(e.route.routes)})})}}}]);

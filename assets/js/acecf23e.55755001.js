@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkarduino_edukit_algerie=self.webpackChunkarduino_edukit_algerie||[]).push([[1903],{1912:e=>{e.exports=JSON.parse('{"blogBasePath":"/projets_ecoles/blog","blogTitle":"Blog","authorsListPath":"/projets_ecoles/blog/authors"}')}}]);
