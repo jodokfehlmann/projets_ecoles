@@ -1,3 +1,7 @@
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
+const pdfUrl = useBaseUrl('/files/arbeitsblatt-robotik.pdf');
+
 ---
 id: introduction
 title: Traceur 2D — Introduction
@@ -73,27 +77,13 @@ Les traceurs 2D sont utilisés dans l'industrie pour découper du vinyle, graver
 | **Débogage** | Identifier et corriger des erreurs |
 
 ---
-
-
-<div style={{ display: 'flex', gap: '1rem', justifyContent: 'center' }}>
-  
-  <a 
-    className="button button--primary button--lg"
-    href="/files/arbeitsblatt-robotik.pdf"
-    download
-  >
-    📥 Download PDF
-  </a>
-
-  <a 
-    className="button button--outline button--secondary button--lg"
-    href="/files/arbeitsblatt-robotik.pdf"
-    target="_blank"
-  >
-    👀 Vorschau ansehen
-  </a>
-
-</div>
+<a 
+  className="button button--primary button--lg"
+  href={pdfUrl}
+  download
+>
+  📥 Download PDF
+</a>
 
 ## 📋 Vue d'ensemble des étapes
 
