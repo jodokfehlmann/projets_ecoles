@@ -74,6 +74,27 @@ Les traceurs 2D sont utilisés dans l'industrie pour découper du vinyle, graver
 
 ---
 
+
+<div style={{ display: 'flex', gap: '1rem', justifyContent: 'center' }}>
+  
+  <a 
+    className="button button--primary button--lg"
+    href="/files/arbeitsblatt-robotik.pdf"
+    download
+  >
+    📥 Download PDF
+  </a>
+
+  <a 
+    className="button button--outline button--secondary button--lg"
+    href="/files/arbeitsblatt-robotik.pdf"
+    target="_blank"
+  >
+    👀 Vorschau ansehen
+  </a>
+
+</div>
+
 ## 📋 Vue d'ensemble des étapes
 
 ```mermaid
