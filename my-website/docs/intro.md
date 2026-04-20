@@ -27,10 +27,18 @@ Tous les kits sont **fabriqués en Algérie** avec des pièces imprimées en 3D,
 |--------|--------|-------|--------|
 | [✏️ Traceur 2D](/docs/projet-plotter/introduction) | 🔴 Avancé | 6–8h | ✅ Disponible |
 | [🌱 Irrigation Intelligente](/docs/projet-irrigation/introduction) | 🟡 Intermédiaire | 4–6h | ✅ Disponible |
-| 🌡️ Station Météo | 🟢 Débutant | 3–4h | 🔧 En cours |
-| 🤖 Robot Suiveur | 🟡 Intermédiaire | 5–6h | 🔧 En cours |
-| 🔐 Serrure Intelligente | 🟡 Intermédiaire | 4–5h | 🔧 En cours |
-| ⚡ Monitor Solaire | 🔴 Avancé | 5–7h | 🔧 En cours |
+| [🌡️ Station Météo](/docs/projet-meteo/introduction) | 🟢 Débutant | 3–4h | ✅ Disponible |
+| [🤖 Robot Suiveur de Ligne](/docs/projet-robot/introduction) | 🟡 Intermédiaire | 5–6h | ✅ Disponible |
+| [🔐 Serrure Intelligente](/docs/projet-serrure/introduction) | 🟡 Intermédiaire | 4–5h | ✅ Disponible |
+| [⚡ Monitor Solaire](/docs/projet-solaire/introduction) | 🔴 Avancé | 5–7h | ✅ Disponible |
+| [🎵 Instrument MIDI](/docs/projet-instrument/introduction) | 🟢 Débutant | 3–4h | ✅ Disponible |
+| [🌍 Qualité de l'Air](/docs/projet-air/introduction) | 🟡 Intermédiaire | 4–5h | ✅ Disponible |
+| [🧮 Calculatrice RPN](/docs/projet-calculatrice/introduction) | 🟡 Intermédiaire | 4–6h | ✅ Disponible |
+| [🛸 CanSat — Mini-Satellite](/docs/projet-cansat/introduction) | 🔴 Avancé | 15–20h | ✅ Disponible |
+| [✈️ Stabilisation Active PID](/docs/projet-stabilisation/introduction) | 🔴 Avancé | 10–15h | ✅ Disponible |
+| [🗺️ GPS Tracker](/docs/projet-gps-tracker/introduction) | 🟡 Intermédiaire | 5–7h | ✅ Disponible |
+| 🦾 Bras Robotique 4 axes | 🔴 Avancé | 8–12h | 🔧 Bientôt |
+| 📡 Réseau de Capteurs LoRa | 🔴 Avancé | 6–8h | 🔧 Bientôt |
 
 ---
 
