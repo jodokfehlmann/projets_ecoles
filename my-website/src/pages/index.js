@@ -153,12 +153,20 @@ function HeroSection() {
   return (
     <header className="hero hero--primary">
       <div className="container" style={{ textAlign: 'center', padding: '4rem 1rem' }}>
-        <div style={{ fontSize: '4rem', marginBottom: '1rem' }}>🤖</div>
+        
+        <img 
+          src="/img/docusaurus.png" 
+          alt="Arduino EduKit Algérie Logo"
+          style={{ width: '120px', marginBottom: '1rem' }}
+        />
+
         <h1 className="hero__title">Arduino EduKit Algérie</h1>
+
         <p className="hero__subtitle">
           Apprenez l'électronique et la programmation à travers des projets réels.<br/>
           Des kits 100% fabriqués localement, avec des notices en français et en arabe.
         </p>
+
         <div style={{ marginTop: '2rem', display: 'flex', gap: '1rem', justifyContent: 'center', flexWrap: 'wrap' }}>
           <Link className="button button--secondary button--lg" to="/docs/intro">
             🚀 Commencer maintenant
@@ -167,6 +175,7 @@ function HeroSection() {
             💻 Voir sur GitHub
           </Link>
         </div>
+
       </div>
     </header>
   );
