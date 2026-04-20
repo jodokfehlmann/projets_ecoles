@@ -155,7 +155,7 @@ function HeroSection() {
       <div className="container" style={{ textAlign: 'center', padding: '4rem 1rem' }}>
         
         <img 
-          src="/img/docusaurus.png" 
+          src="static/img/logo.png" 
           alt="Arduino EduKit Algérie Logo"
           style={{ width: '120px', marginBottom: '1rem' }}
         />
