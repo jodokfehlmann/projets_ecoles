@@ -2,6 +2,7 @@ import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './index.module.css';
 
 const projects = [
@@ -150,12 +151,13 @@ const projects = [
 ];
 
 function HeroSection() {
+  const logoUrl = useBaseUrl('/img/logo.png');
   return (
     <header className="hero hero--primary">
       <div className="container" style={{ textAlign: 'center', padding: '4rem 1rem' }}>
         
         <img 
-          src="/static/img/logo.png" 
+          src={logoUrl} 
           alt="Arduino EduKit Algérie Logo"
           style={{ width: '120px', marginBottom: '1rem' }}
         />
