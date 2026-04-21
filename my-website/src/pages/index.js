@@ -159,7 +159,7 @@ function HeroSection() {
         <img 
           src={logoUrl} 
           alt="Arduino EduKit Algérie Logo"
-          style={{ width: '120px', marginBottom: '1rem' }}
+          style={{ width: '200px', marginBottom: '1rem' }}
         />
 
         <h1 className="hero__title">Arduino EduKit Algérie</h1>
